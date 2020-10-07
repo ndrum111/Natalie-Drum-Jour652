@@ -99,12 +99,8 @@ BODY {
 #menu {
 
   margin-top:5px;
-  margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 0px;
 
-
-}
 
 li {
 
@@ -146,6 +142,9 @@ li {
   padding: 0px;
   text-align: center;
 
+}
+
+.menu li{
 }
 
 .top {
