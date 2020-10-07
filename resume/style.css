@@ -96,10 +96,6 @@ BODY {
 /*Contact Info, Skills and Education Lists*/
 
 
-#menu {
-
-  margin-top:5px;
-  margin-right: 0px;
 
 
 li {
@@ -145,6 +141,7 @@ li {
 }
 
 .menu li{
+  display:inline;
 }
 
 .top {
