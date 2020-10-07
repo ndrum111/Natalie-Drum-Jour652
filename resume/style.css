@@ -69,6 +69,7 @@ BODY {
 .jobtitle {
   font-weight:600;
   font-size:1.5em;
+  
 }
 
 /*Job Organization*/
@@ -97,12 +98,17 @@ BODY {
 li {
   display:inline;
 
+
 }
 
 
-ul{
+ul {
   font-size:1em;
+  list-style-type: square;
+
 }
+
+
 
 #degrees {
   margin-top:5px;
@@ -116,6 +122,7 @@ ul{
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+
 }
 
 /*Paragraph*/
@@ -134,4 +141,13 @@ ul{
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+
+.top {
+
+  width:60%;
+  min-width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
 }
