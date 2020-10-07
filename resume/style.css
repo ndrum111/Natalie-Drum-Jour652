@@ -69,7 +69,7 @@ BODY {
 .jobtitle {
   font-weight:600;
   font-size:1.5em;
-  
+
 }
 
 /*Job Organization*/
@@ -95,17 +95,21 @@ BODY {
 
 /*Contact Info, Skills and Education Lists*/
 
-li {
-  display:inline;
+
+#menu {
+
+  margin-top:5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 
 
 }
 
+li {
 
-ul {
-  font-size:1em;
-  list-style-type: square;
-
+  display: inline;
+  list-style-type:none;
 }
 
 
@@ -141,6 +145,7 @@ ul {
   margin: 0px;
   padding: 0px;
   text-align: center;
+
 }
 
 .top {
