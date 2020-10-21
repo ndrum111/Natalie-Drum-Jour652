@@ -1,5 +1,83 @@
+BODY{
+  font-family: Georgia, serif;
+  font-size:13px;
+
+}
+
+
+
+
 #content {
   width:100%;
   max-width:900px;
   margin:0 auto;
+}
+
+
+#h1 {
+  color:#001561;
+  font-size:3em;
+  text-transform: uppercase;
+  text-align:center;
+  border-bottom: 5px
+  width:60%;
+  min-width:300px;
+  /*Center a DIV tag*/
+  margin-top:15px;
+  margin-bottom:15px;
+  font-family: Helvetica, 'Anton' sans-serif;
+
+
+}
+
+
+#img {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 0px;
+  padding-left:0px;
+  width:70%;
+  height:20%;
+  align:center;
+
+}
+
+
+#byline{
+font-family: Helvetica, 'Roboto' sans-serif;
+font-size:14px;
+font-style: italic;
+
+}
+
+h2 {
+ align:center;
+
+
+
+}
+
+.h3 {
+  font-family: Helvetica, 'Roboto' sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h4 {
+  text-align:center;
+  
+}
+
+
+
+blockquote{
+  font-size:35px;
+  font-family: Helvetica, sans-serif;
+  font-style:italic;
+  margin-top: 15px;
+  margin-bottom:15px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 2px solid #ccc;
+
 }
