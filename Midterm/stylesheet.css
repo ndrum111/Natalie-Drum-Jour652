@@ -72,16 +72,17 @@ blockquote{
 }
 
 img{
-  max-width:"100%";
+  max-width:"100";
 
 }
 
 
-ul.readmore{
+ul {
 
   margin: 0px;
   padding:0px;
   display:inline;
+  text-align:center;
 
 
 }
