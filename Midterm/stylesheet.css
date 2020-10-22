@@ -1,0 +1,70 @@
+BODY {
+  font-family: Helvetica, Arial,sans-serif;
+  font-size:12px;
+
+}
+
+/*this is where the styling for paragraphs lives*/
+
+p{
+  font-family: Helvetica, Arial,sans-serif;
+  font-size:12px;
+}
+
+
+#content {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+}
+
+
+.subheading{
+  font-size:20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#headline {
+  font-family: 'PT Serif', serif;
+  font-size:50px;
+  text-align: center;
+  padding-top:15px;
+  padding-bottom:5px;
+
+}
+
+#byline{
+  font-family: 'Open Sans', sans-serif;
+  font-style:italic;
+  font-size:15px;
+  text-align:center;
+  color:#00000;
+  padding-bottom: 10px;
+
+}
+
+h4 {
+  text-align:center;
+}
+
+.caption{
+  font-family: Helvetica, Arial,sans-serif;
+  font-size:12px;
+  font-style:italic;
+  text-align:left;
+}
+
+
+blockquote{
+  font-size:35px;
+  font-family: Helvetica, sans-serif;
+  font-style:italic;
+  margin-top: 15px;
+  margin-bottom:15px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 2px solid #9D478A;
+  color:#9D478A
+
+}
