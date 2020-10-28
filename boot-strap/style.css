@@ -87,11 +87,6 @@ font-family: 'Playfair Display', serif;
 
 
 
-li {
-  list-style-type:disc;
-
-
-}
 
 
 
@@ -165,6 +160,7 @@ margin-left: 0px;
   padding-bottom:10px;
   padding-top:40px;
 font-family: 'Open Sans', arial, sans-serif;
+ color:#fff;
 
 }
 
@@ -191,8 +187,29 @@ h2{
 
 }
 
+
+h4{
+font-family: 'Open Sans', arial, sans-serif;
+color:black;
+
+
+}
+
 .list-unstyled{
 
 font-family: 'Open Sans', arial, sans-serif;
 
+}
+
+
+
+ul {
+
+    list-style-type:none;
+
+}
+
+
+.nav-item{
+  color:"black";
 }
