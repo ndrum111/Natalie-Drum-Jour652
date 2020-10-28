@@ -11,7 +11,6 @@ BODY {
   margin:0 auto;
 
 
-
 }
 
 #container {
@@ -20,8 +19,15 @@ BODY {
   margin: 0 auto;
 
 
-
 }
+
+.menu{
+  text-align:center;
+  background-color: rgba(255, 255, 255, .1);
+  color:#fff;
+}
+
+
 
 
 /*Title*/
@@ -33,6 +39,7 @@ BODY {
    text-align: left;
    font-family: 'Playfair Display', serif;
    padding-right:50px;
+   
 }
 
 /*Section Titles*/
@@ -90,7 +97,6 @@ font-family: 'Playfair Display', serif;
 li {
   list-style-type:disc;
 
-
 }
 
 
@@ -131,6 +137,9 @@ li {
 
 }
 
+.menu li{
+  display:inline;
+}
 
 .top {
 
@@ -141,6 +150,12 @@ li {
   padding-bottom: 50px;
 }
 
+
+.navbar{
+font-family: 'Open Sans', arial, sans-serif;
+color:#fff;
+
+}
 
 
 #row{
@@ -188,11 +203,5 @@ font-family: 'Open Sans', arial, sans-serif;
 
 h2{
  text-align:justify;
-
-}
-
-.list-unstyled{
-
-font-family: 'Open Sans', arial, sans-serif;
 
 }
