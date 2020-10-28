@@ -1,0 +1,212 @@
+/* Main Style */
+
+
+
+BODY {
+
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color:black;
+  font-weight: 400;
+  margin:0 auto;
+
+
+}
+
+#container {
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+.menu{
+  text-align:center;
+  background-color: rgba(255, 255, 255, .1);
+  color:#fff;
+}
+
+
+
+
+/*Title*/
+
+#title {
+
+   text-transform:uppercase;
+   font-size:3em;
+   text-align: left;
+   font-family: 'Playfair Display', serif;
+   padding-right:50px;
+}
+
+/*Section Titles*/
+
+.sectionheader {
+  font-size:1.4em;
+  text-transform: uppercase;
+
+  color:#fff;
+  font-weight:400;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0px;
+  margin-left:0px;
+  width:70%;
+  min-width:300px;
+  align:left;
+  font-family: 'Playfair Display', serif;
+}
+
+/*Job Titles*/
+
+.jobtitle {
+  font-weight:600;
+  font-size:1.2em;
+font-family: 'Playfair Display', serif;
+}
+
+/*Job Organization*/
+
+.organization {
+  font-weight:400;
+  font-size:1.1em;
+font-family: 'Playfair Display', serif;
+}
+
+/*Job Dates*/
+
+.date {
+  font-weight:400;
+  font-style:italic;
+  font-size:1.1em;
+  margin-top:2px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+font-family: 'Playfair Display', serif;
+}
+
+/*Contact Info, Skills and Education Lists*/
+
+
+
+
+li {
+  list-style-type:disc;
+
+}
+
+
+
+#degrees {
+  margin-top:5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-style:italic;
+}
+
+#do {
+  margin-top:5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+}
+
+/*Paragraph*/
+
+.p {
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+
+}
+
+/*Contact Info*/
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+}
+
+.menu li{
+  display:inline;
+}
+
+.top {
+
+  width:60%;
+  min-width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+
+
+.navbar{
+font-family: 'Open Sans', arial, sans-serif;
+color:#fff;
+
+}
+
+#row{
+
+padding-top:50px;
+padding-bottom:10px;
+margin-top:10px;
+margin-bottom:10px;
+margin-right: 0px;
+margin-left: 0px;
+
+
+}
+
+
+.AboutMe{
+  font-size:2em;
+  margin-top:50px;
+  margin-bottom:40px;
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom:10px;
+  padding-top:40px;
+font-family: 'Open Sans', arial, sans-serif;
+
+}
+
+
+
+
+.col-sm-6{
+  color:black;
+  font-weight:400;
+  margin-top:5px;
+  margin-bottom:20px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:5px;
+  padding-top:10px;
+  width:"100%";
+  text-align:left;
+
+
+}
+
+
+
+
+
+
+h2{
+ text-align:justify;
+
+
+
+}
