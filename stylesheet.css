@@ -1,0 +1,192 @@
+BODY {
+  font-family: 'Open Sans', sans-serif;
+  font-size:12px;
+
+}
+
+/*this is where the styling for paragraphs lives*/
+
+p{
+ font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size:1.30em;
+  line-height: 190%;
+  padding-right: 20px;
+  padding-left:20px;
+}
+
+.container{
+  text-align:center;
+}
+
+/* Tophat */
+.nav-logo{
+ color: #fff;
+ margin:0 auto;
+ font-weight: 700;
+ text-transform: uppercase;
+
+}
+
+.red{
+  color:#f23030
+}
+
+/* Splash area*/
+
+.hero-container{
+ position: relative;
+ text-align: center;
+ color:#fff;
+
+}
+
+.hero-image{
+  width:100%;
+}
+
+.overlay{
+  position:absolute;
+  top:35%;
+  width:100%;
+  background-color: #000;
+  opacity: .6;
+
+}
+
+.hero-head{
+   font-family:'PT Serif', serif;
+   font-size:6em;
+   color:#fff;
+   margin:0 auto;
+   padding-bottom:10px;
+
+
+}
+
+.hero-sub{
+  font-family:'Montserrat', sans-serif;
+  font-size: .25em;
+}
+
+/*Pull Quote*/
+.quote{
+  font-family:'Montserrat', sans-serif;
+  color: #305890;
+  font-size:3em;
+  font-weight: 700;
+  text-align: left;
+  padding:15px 0 15px 0;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.quote-attribution{
+  font-size: .5em;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align:left;
+  color:#000;
+
+}
+
+/*photo caption*/
+.caption{
+  font-size:1em;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align:left;
+  color:#646664;
+}
+
+/*headline*/
+.headline {
+  font-family: 'PT Serif', serif;
+  font-size:50px;
+  text-align: center;
+  padding-top:15px;
+  padding-bottom:5px;
+}
+
+.byline {
+  font-family:'Montserrat', sans-serif;
+  font-style:italic;
+  font-size:18px;
+  text-align:center;
+  padding-bottom: 15px;
+
+}
+
+/*intro paragraph*/
+.intro-text{
+font-family: 'Open Sans', sans-serif;
+font-size:1.75em;
+max-width: 800px;
+margin: 0 auto;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+
+
+/*dropcap*/
+
+.dropcap{
+  color:#305890;
+  float:left;
+  font-size:5em;
+  line-height:60px;
+  padding-top:4px;
+  padding-right: 8px;
+  padding-left:3px;
+  font-weight: 700;
+  font-family: 'PT Serif', serif;
+}
+
+/*chapter heading*/
+
+.chapter-head{
+  font-family:'Montserrat', sans-serif;
+  color:#305890;
+  text-transform:uppercase;
+  font-weight: 700;
+  font-size:4em;
+
+
+}
+
+.contributors{
+  font-family: 'PT Serif', serif;
+  font-style:italic;
+  color:#305890;
+}
+
+.footer{
+  background: #000;
+  font-family: 'Open Sans', sans-serif;
+  min-height:50px;
+  text-align: center;
+  color:#fff;
+  padding-top:10px;
+}
+
+
+@media(max-width:700px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head{
+    font-size:1.25em;
+
+  }
+
+  .hero-head {
+    font-size:1.5em;
+  }
+
+}
